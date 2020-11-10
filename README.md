@@ -16,7 +16,8 @@ As a user, I want to be able to view my entire employee directory at once so tha
 
 ## Instructions
 
-* Follow these instructions to install the app 
+* Follow these instructions to install the app: 
+Start the app by running `npm start` in your terminal
  
 
 
