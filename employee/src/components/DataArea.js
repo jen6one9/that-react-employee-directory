@@ -18,7 +18,7 @@ class DataArea extends React.Component {
                         email: APIdata[i].email,
                         phone: APIdata[i].phone,
                         DOB: APIdata[i].dob.date,
-                        location: APIdata[i].location.city + ", " + APIdata[i].location.street,
+                        location: APIdata[i].location.city + ", " + APIdata[i].location.state
                     }
                     employees.push(emp)
 
