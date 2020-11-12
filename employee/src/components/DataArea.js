@@ -14,7 +14,7 @@ class DataArea extends React.Component {
                 for (let i = 0; i < APIdata.length; i++) {
                     var emp = {
 
-                        name: APIdata[i].name.title + APIdata[i].name.first + " " + APIdata[i].name.last,
+                        name: APIdata[i].name.title + " "+ APIdata[i].name.first + " " + APIdata[i].name.last,
                         email: APIdata[i].email,
                         phone: APIdata[i].phone,
                         DOB: APIdata[i].dob.date,
