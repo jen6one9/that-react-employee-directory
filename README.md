@@ -5,13 +5,13 @@ Employee directory app created with React web framework.
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
 ## Preview
-![alt-text](placeholderxxx.GIF)
+![alt-text](react.GIF)
 
 ## Deployed Link
- 
+https://guarded-coast-73373.herokuapp.com/
 
 ## GitHub
-
+https://github.com/jen6one9/that-react-employee-directory
  
 
 ## Instructions
