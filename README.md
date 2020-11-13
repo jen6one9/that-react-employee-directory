@@ -1,5 +1,5 @@
 # that-react-employee-directory
-Employee directory app created with React web framework. 
+Employee directory app created with React web framework.  When the user loads the page, the app renders a table of employees.  The user has the ability to sort the table by category and features a search box that allows the user to filter by property. 
 
 ## User Story
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
@@ -13,26 +13,6 @@ https://guarded-coast-73373.herokuapp.com/
 ## GitHub
 https://github.com/jen6one9/that-react-employee-directory
  
-
-## Instructions
-
-* Follow these instructions to install the app: 
-Start the app by running `npm start` in your terminal
-
-  npm start
-    Starts the development server.
-
-  npm run build
-    Bundles the app into static files for production.
-
-  npm test
-    Starts the test runner.
-
-  npm run eject
-    Removes this tool and copies build dependencies, configuration files
-    and scripts into the app directory. If you do this, you can’t go back!
- 
-
 
 ## Acknowledgements
 The successful release of this application would not be possible without the candid feedback and support of my tutor, class TA's and cohort peers. 
