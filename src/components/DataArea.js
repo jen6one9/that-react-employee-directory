@@ -12,12 +12,13 @@ class DataArea extends React.Component {
                 let APIdata = records.data.results
                 let employees = []
                 for (let i = 0; i < APIdata.length; i++) {
+                  var date = new Date(Date.parse(APIdata[i].dob.date))
                     var emp = {
 
                         name: APIdata[i].name.title + " "+ APIdata[i].name.first + " " + APIdata[i].name.last,
                         email: APIdata[i].email,
                         phone: APIdata[i].phone,
-                        DOB: APIdata[i].dob.date,
+                        DOB: date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear(),
                         location: APIdata[i].location.city + ", " + APIdata[i].location.state
                     }
                     employees.push(emp)
